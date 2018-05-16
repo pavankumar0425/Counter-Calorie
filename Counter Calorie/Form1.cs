@@ -31,7 +31,7 @@ namespace Counter_Calorie
         {
 
         }
-
+        // Adding Comment.
         private void picBoxBanana_Click(object sender, EventArgs e)
         {
             
@@ -115,6 +115,11 @@ namespace Counter_Calorie
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

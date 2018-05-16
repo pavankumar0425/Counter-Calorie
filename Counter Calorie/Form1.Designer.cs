@@ -277,6 +277,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Counter Calorie";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picBoxBanana)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxPear)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.picBoxOrange)).EndInit();
